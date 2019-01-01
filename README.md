@@ -1,6 +1,6 @@
 # 试验Fission
 
-```entrypoint```为```org.dracula.test.fission.TestEntry```  
+```entrypoint```为```org.dracula.test.fission.TestEntryPoint```  
 
 引入依赖```spring-boot-starter-web```和```fission-java-core```  
 增加repo，地址```https://oss.sonatype.org/content/repositories/snapshots```  

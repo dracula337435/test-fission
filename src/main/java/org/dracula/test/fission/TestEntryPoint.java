@@ -8,8 +8,9 @@ import org.springframework.http.ResponseEntity;
 /**
  * @author dk
  */
-public class TestEntry implements Function {
+public class TestEntryPoint implements Function {
 
+    @Override
     public ResponseEntity call(RequestEntity requestEntity, Context context) {
         return ResponseEntity.ok("Hello World!");
     }
